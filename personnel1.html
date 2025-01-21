@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>personnel</title>
+    <link rel="icon" type="imga/jpg" href="logo.jpg">
+    <link rel="stylesheet" href="personnell.css">
+    <style>
+        body{
+            background-color: #ffffff;
+            display: flex;
+            flex-direction: column;
+            justify-content: space-around;
+            height: 97vh;
+            margin-left: 30%;
+            margin-right: 30%;
+        }
+        form{
+            height: 100%;
+            padding: 10px;
+            border: 7px solid black;
+            display: flex;
+            flex-direction: column;
+            gap: 7px;
+            font-size: 1.3em;
+            font-weight: 7;
+            box-shadow: 7px 7px 77px black;
+        }
+        input{
+        width: 100%;
+        }
+        form>div{
+        
+        }
+        #suivant{
+            margin-top: 185px;
+        }
+    </style>
+</head>
+<body>
+    <form>
+    <h3> >LES INFORMATION PERSONNELLES:</h3>
+    
+    <p class="p1"></p>
+    
+        <div>
+        <li> <label for="fname">Prénom:</label><br>
+        <input type="text" id="fname" name="fname"><br>
+        </di>
+        <div>
+        <li><label for="fname">Nom de famille:</label><br>
+        <input type="text" id="fname" name="fname"><br>
+        </div>
+        <div>
+        <li><label for="email">Entrer ton email:</label><br>
+        <input type="email" id="email" name="email"><br>
+        </div>
+        <li><label for="pwd">Mot de passe:</label><br>
+        <input type="password" id="pwd" name="pwd"><br>
+        <div>
+       <li> <label for="phone">Entrer ton numero de telephone:</label><br>
+        <input type="tel" id="phone" name="phone" placeholder="__ __ __ __ __ __ __ __ __ __ __ __ __ __ __ __ __ __ __ __ __ __ __ __ __ __ __ __ __ __ __ __ __ __ __ __ __ __"
+         pattem="[0-9]{2}-[0-9]{2}-[0-9]{2}-[0-9]{2}-[0-9]{2}"><br>
+       </div>
+       <div>
+        <li> <label for="fname">Entrer ton adresse:</label><br>
+        <input type="text" id="fname" name="fname"><br>
+        </div>
+       <div>
+           <li> <a >Ton pays:</a>
+         
+            <select name="" id="se">
+                <option value="">Choisir</option>
+                <option value="">Maroc</option>
+                <option value="">Espagne</option>
+                <option value="">Canada</option>
+                <option value="">France</option>
+                <option value="">Russie</option>
+                <option value="">Brésil</option>
+                <option value="">Italie</option>
+                <option value="">Allemagne</option>
+                <option value="">Japon</option>
+                <option value="">Etats-Unis</option>
+                <option value="">Australie</option>
+                <option value="">Inde</option>
+                <option value="">Afrique du Sud</option>
+                <option value="">Mexique</option>
+                <option value="">Chine</option>
+                <option value="">Royaume-Uni</option>
+                
+
+            </select>
+        
+        </div>       
+            
+        <input type="submit" value="Suivant" id="suivant">
+        
+
+    </form>
+
+    
+</body>
+</html>
